@@ -1,6 +1,44 @@
 ﻿@{
-    ViewData["Title"] = "Services";
+    Layout = "_Layout";
 }
 
-<h2>Our Services</h2>
-<p>Explore the services we offer to manage properties.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Property Management App</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <header>
+        <!-- Include layout header here -->
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <section id="services" class="services-overview">
+                <div class="container">
+                    <h2>Our Services</h2>
+                    <p>We offer a wide range of services to meet your property management needs.</p>
+                    <ul>
+                        <li>Property Listing and Promotion</li>
+                        <li>Tenant Screening and Placement</li>
+                        <li>Maintenance and Repairs</li>
+                        <li>Financial Management and Reporting</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <!-- Include layout footer here -->
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js"></script>
+</body>
+</html>

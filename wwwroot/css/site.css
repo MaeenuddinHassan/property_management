@@ -1,19 +1,82 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+.container {
+    padding: 20px;
 }
-/* styles.css */
 
+/* Header and Navigation */
 .navbar {
-    background-image: url('/images/navbar.jpg'); /* Replace with your image path */
+    background-color: #343a40; /* Dark background */
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Larger font size */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #ffc107;
+    }
+
+/* Hero Section */
+.hero {
+    background-image: url('/images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+    .hero h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero .btn {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        background-color: #ffc107;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .hero .btn:hover {
+            background-color: #e0a800;
+        }
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: #ffc107;
+    margin-right: 15px;
+}
+
+    .footer-links a:hover {
+        color: #fff;
+    }
+
+.social-media img {
+    width: 24px;
+    margin: 0 5px;
 }

@@ -1,27 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace PropertyManagementApp.Controllers
+public class HomeController : Controller
 {
-    public class HomeController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
+    public IActionResult Index() => View();
+    public IActionResult Properties() => View();
+    public IActionResult Services() => View();
+    public IActionResult Contact() => View();
+}
 
-        public IActionResult About()
-        {
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            return View();
-        }
-
-        public IActionResult Services()
-        {
-            return View();
-        }
-    }
+public class AccountController : Controller
+{
+    public IActionResult Login() => View();
+    public IActionResult Register() => View();
 }
